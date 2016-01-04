@@ -3,16 +3,27 @@
     android:layout_width="match_parent"
     android:padding="10dp"
     android:orientation="vertical"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+
+
+    <ImageView
+        android:layout_width="357dp"
+        android:layout_height="155dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/ffa"
+        android:layout_centerHorizontal="true"
+        android:layout_weight="0.12" />
 
 
     <TextView
-        android:text="@string/username"
+        android:text="@string/email"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
 
     <EditText
-        android:id="@+id/Username"
+        android:id="@+id/etemail"
         android:layout_width="match_parent"
         android:layout_marginBottom="10dp"
         android:layout_height="wrap_content" />
@@ -23,25 +34,58 @@
         android:layout_height="wrap_content" />
 
     <EditText
-        android:id="@+id/Password"
+        android:id="@+id/etPassword"
         android:layout_width="match_parent"
         android:inputType="textPassword"
         android:layout_marginBottom="10dp"
         android:layout_height="wrap_content" />
 
     <Button
-        android:id="@+id/Login"
+        android:id="@+id/bLogin"
         android:layout_width="match_parent"
         android:layout_marginBottom="10dp"
         android:layout_height="wrap_content"
-        android:text="@string/login" />
+        android:background="#680000"
+        android:text="@string/signin"
+        android:textSize="20dp"
+        android:textColor="#FFFFFF" />
 
     <TextView
-        android:id="@+id/RegisterLink"
+        android:id="@+id/Signup"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:text="@string/register"
+        android:text="@string/signup"
         android:textStyle="bold" />
 
+
+    <TextView  android:layout_marginTop="50dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/or"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/bLoginfb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/fb"
+        android:textSize="20dp"
+        android:background="#3b5998"
+        android:textColor="#FFFFFF" />
+
+    <Button
+        android:id="@+id/bLogingmail"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_height="wrap_content"
+        android:text="@string/gmail"
+        android:textSize="20dp"
+        android:background="#dd4b39"
+        android:textColor="#FFFFFF" />
+
 </LinearLayout>
+
+

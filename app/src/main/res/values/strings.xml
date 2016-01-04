@@ -1,4 +1,11 @@
 <resources>
-    <string name="app_name">foodfindasia</string>
     <string name="action_settings">Settings</string>
+    <string name="app_name">Foodfindsasia</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="signin">Sign in</string>
+    <string name="signup">Sign up here</string>
+    <string name="or">OR</string>
+    <string name="fb">Log in with facebook</string>
+    <string name="gmail">Sign in with Gmail</string>
 </resources>
